@@ -7,7 +7,7 @@ function App() {
   return (
     <UsuarioProvider>
       <AppNavigation />
-      {/* <QrScreen /> */}
+
     </UsuarioProvider>
     
   );

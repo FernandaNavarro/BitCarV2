@@ -1,0 +1,69 @@
+import { StyleSheet } from 'react-native'
+import color from './colors'
+
+//Estilos para SplashScreen
+const splashStyles = StyleSheet.create({
+    image: {
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: color.WHITE,
+    }
+})
+
+//Estilos para LoginScreen
+const loginStyles = StyleSheet.create({
+
+    container: {
+        flex: 1,
+        alignItems: 'center',
+    },
+
+    logo: {
+        paddingTop: 10,
+        alignItems: 'center',
+    },
+
+    btnMain: {
+        width: 280,
+        marginTop:40,
+        marginBottom: 20,
+        backgroundColor: color.PRIMARYCOLOR,
+        borderRadius: 60
+    },
+
+    btnTransparent: {
+        backgroundColor: 'rgba(52, 52, 52, 0)',
+        borderColor: color.PRIMARYCOLOR,
+        width: 280,
+        borderWidth: 2,
+        marginBottom: 20,
+        borderRadius: 60
+    },
+
+    btntxt: {
+        textAlign: 'center',
+        fontSize: 17,
+        color: color.WHITE,
+        paddingVertical: 15,
+        
+    },
+
+    txtTransparent: {
+        color: color.LIGHTPRIMARYCOLOR,
+        fontSize: 14,
+        
+    },
+
+    btnCuenta:{
+        width: 140,
+        marginTop:190,
+        marginBottom: 10,
+        backgroundColor: color.PRIMARYCOLOR,
+        borderRadius: 50
+    },
+
+})
+
+export { loginStyles, splashStyles }

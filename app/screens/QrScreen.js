@@ -107,26 +107,3 @@ render() {
     }
 }
 export default QrScreen;
-
-
-
-
-// import React from "react";
-// import { View, Text } from "react-native";
-
-// const Qr = props => {
-//   return (
-//     <View
-//       style={{
-//         flex: 1,
-//         backgroundColor: "#f9ed69",
-//         justifyContent: "center",
-//         alignItems: "center"
-//       }}
-//     >
-//       <Text style={{ fontSize: 42, fontWeight: "bold" }}>Qr</Text>
-//     </View>
-//   );
-// };
-
-// export default Qr;

@@ -6,8 +6,8 @@ export default class DataScreen extends Component{
   constructor(props) {
     super(props);
     this.state = {
-      tableHead: ['Fecha', 'Marca', 'Modelo', 'Color', 'Nombre'],
-      widthArr: [60, 70, 80, 90,100]
+      tableHead: ['Fecha','Modelo','Placas','Disponible'],
+      widthArr: [80, 80, 80, 100]
     }
   }
 
@@ -78,15 +78,3 @@ const styles = StyleSheet.create({
   }
 });
 
-// return (
-//   <View
-//     style={{
-//       flex: 1,
-//       backgroundColor: "#f9ed69",
-//       justifyContent: "center",
-//       alignItems: "center"
-//     }}
-//   >
-//     <Text style={{ fontSize: 42, fontWeight: "bold" }}>Data</Text>
-//   </View>
-// );
